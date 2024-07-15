@@ -1,4 +1,4 @@
-import my from "/images/cv.jpeg";
+import my from "/images/cv.png";
 import { useReactToPrint } from 'react-to-print';
 import { useRef } from 'react';
 import CVComponent from "../../Components/CVComp/CVComponent";
