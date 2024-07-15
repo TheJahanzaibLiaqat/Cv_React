@@ -3,12 +3,12 @@
 import { FaCirclePlus } from "react-icons/fa6";
 const Portfolio = () => {
   const values = [
-    { img: "/images/WEb.PNG", component: FaCirclePlus, title: "Medical", description: "Website", url:"https://github.com/TheJahanzaibLiaqat/ClaueEcommerce_React" },
-    { img: "/images/CodeStore.PNG", component: FaCirclePlus, title: "CodeStore", description: "Website" , url:"https://github.com/TheJahanzaibLiaqat/CodeStore_Website_React" },
-    { img: "/images/Ecommerce.PNG", component: FaCirclePlus, title: "Ecommerce", description: "Website" , url:"https://github.com/TheJahanzaibLiaqat/EcommerceApp_React"},
-    { img: "/images/Movie.PNG", component: FaCirclePlus, title: "Movie", description: "Website", url:"https://github.com/TheJahanzaibLiaqat/MovieApp_React/tree/main/movieApp" },
-    { img: "/images/Medical.PNG", component: FaCirclePlus, title: "Product", description: "Website" , url:"https://github.com/TheJahanzaibLiaqat/DentistMedical_React"},
-    { img: "/images/Product.PNG", component: FaCirclePlus, title: "Product", description: "Website" , url:"https://github.com/TheJahanzaibLiaqat/ProductApp_React"},
+    { img: "images/WEb.PNG", component: FaCirclePlus, title: "Medical", description: "Website", url:"https://github.com/TheJahanzaibLiaqat/ClaueEcommerce_React" },
+    { img: "images/CodeStore.PNG", component: FaCirclePlus, title: "CodeStore", description: "Website" , url:"https://github.com/TheJahanzaibLiaqat/CodeStore_Website_React" },
+    { img: "images/Ecommerce.PNG", component: FaCirclePlus, title: "Ecommerce", description: "Website" , url:"https://github.com/TheJahanzaibLiaqat/EcommerceApp_React"},
+    { img: "images/Movie.PNG", component: FaCirclePlus, title: "Movie", description: "Website", url:"https://github.com/TheJahanzaibLiaqat/MovieApp_React/tree/main/movieApp" },
+    { img: "images/Medical.PNG", component: FaCirclePlus, title: "Product", description: "Website" , url:"https://github.com/TheJahanzaibLiaqat/DentistMedical_React"},
+    { img: "images/Product.PNG", component: FaCirclePlus, title: "Product", description: "Website" , url:"https://github.com/TheJahanzaibLiaqat/ProductApp_React"},
   ];
   return (
     <div className="bg-gray-950" id="portfolio">
