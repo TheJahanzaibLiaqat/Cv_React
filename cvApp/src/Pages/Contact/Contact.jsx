@@ -51,11 +51,11 @@ const Contact = () => {
 
 
     const items = [
-      { img: "/images/instagram.png",url:"https://www.instagram.com/_theycallme_jazzy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", data: "Instagram" },
-      { img: "/images/snapchat.png",url:"https://snapchat.com/t/BPfvKmfP", data: "Snapchat" },
-      { img: "/images/twitter.png", data: "Twitter" },
+      { img: "images/instagram.png",url:"https://www.instagram.com/_theycallme_jazzy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", data: "Instagram" },
+      { img: "images/snapchat.png",url:"https://snapchat.com/t/BPfvKmfP", data: "Snapchat" },
+      { img: "images/twitter.png", data: "Twitter" },
       {
-        img: "/images/linkedin.png",
+        img: "images/linkedin.png",
         url:
           "https://www.linkedin.com/in/jahanzaib-liaqat-817734287?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
         data: "LinkDin",
