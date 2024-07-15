@@ -1,9 +1,9 @@
-import my from "images/WEb.PNG";
+
 
 import { FaCirclePlus } from "react-icons/fa6";
 const Portfolio = () => {
   const values = [
-    { img: {my}, component: FaCirclePlus, title: "Medical", description: "Website", url:"https://github.com/TheJahanzaibLiaqat/ClaueEcommerce_React" },
+    { img: "images/WEb.PNG", component: FaCirclePlus, title: "Medical", description: "Website", url:"https://github.com/TheJahanzaibLiaqat/ClaueEcommerce_React" },
     { img: "images/CodeStore.PNG", component: FaCirclePlus, title: "CodeStore", description: "Website" , url:"https://github.com/TheJahanzaibLiaqat/CodeStore_Website_React" },
     { img: "images/Ecommerce.PNG", component: FaCirclePlus, title: "Ecommerce", description: "Website" , url:"https://github.com/TheJahanzaibLiaqat/EcommerceApp_React"},
     { img: "images/Movie.PNG", component: FaCirclePlus, title: "Movie", description: "Website", url:"https://github.com/TheJahanzaibLiaqat/MovieApp_React/tree/main/movieApp" },
@@ -30,8 +30,9 @@ const Portfolio = () => {
                 
                 <div
                   className="w-full h-full bg-cover bg-center transition-transform duration-500 transform group-hover:scale-110 group-hover:filter group-hover:brightness-50"
-                  style={{ backgroundImage: `url(${value.img})` }}
-                ></div>
+                  // style={{ backgroundImage: `url(${value.img})` }}
+                
+                > <img src={value.img} alt="" /></div>
                 <div className="absolute top-0 left-0 w-full cursor-pointer h-full opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center text-white font-semibold">
                   <div className="border-2 border-white py-5 px-10 sm:py-5 sm:px-24  md:py-5 md:px-10 text-center rounded-md">
                      <div className=" mt-10 p-2 w-24 mx-auto bg-orange-400 rounded-full"><a href={value.url}><IconComponent className="h-10 w-10 mx-auto" /></a></div>
